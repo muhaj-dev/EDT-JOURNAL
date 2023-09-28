@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -12,7 +13,23 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'primary': '#216FED', // primary
+        'secondary': '#FF6663', // secondary
+        'l-blue': '#216FED', // secondary        
+      },
+      screens: {
+        mobile: "360px",
+        tablet: "580px",
+        tablet_l: "650px",
+        laptop: "780px",
+        laptop_l: "1000px",
+        desktop: "1020px",
+        xl: "1400px",
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }
