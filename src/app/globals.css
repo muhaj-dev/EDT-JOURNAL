@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 .bg-ball {
-  border-radius: 558px;
+  border-radius: 100%;
   background: rgba(33, 111, 237, 0.3);
   filter: blur(50px);
+
+}
+
+.btn-pri {
+  @apply bg-primary py-3 px-8 border-2 border-primary hover:bg-white ease-in-out transition hover:text-primary text-white
 }
