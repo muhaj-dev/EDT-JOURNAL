@@ -11,12 +11,14 @@ export default function Home() {
   return (
     <main className="">
     <Nav />
-    <Hero />
-    <Explore />
-    <Publish />
-    <Blog />
-    <Suscribe />
-    <Footer />
+    <div className='w-full  max-w-[1300px] mx-auto overflow-hidden'>
+      <Hero />
+      <Explore />
+      <Publish />
+      <Blog />
+      <Suscribe />
+      <Footer />
+    </div>
     </main>
   )
 }

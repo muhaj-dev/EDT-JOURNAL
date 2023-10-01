@@ -15,3 +15,20 @@
 .pink{
   background: rgba(255, 102, 99, 0.50);
 }
+
+.ex-card{
+  background-color: white;
+}
+.ex-card:hover {
+  background-color: #216FED;
+}
+
+.ex-card:hover p {
+  color: white;
+}
+.ex-card:hover .img {
+  color: white;
+}
+.ex-card:hover img {
+  color: white;
+}

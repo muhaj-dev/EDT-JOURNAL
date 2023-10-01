@@ -1,11 +1,13 @@
-export const myObject = [
+import { MdLaptop } from 'react-icons/md'
+
+export const explore = [
   {
     img: "./images/exp1.svg",
-    ttle: "Digital Curriculum Development",
-    content: "follow the latest trends and innovations in online educations, including virtual classrooms, learning management systems and onlinw course design.",
+    ttle: "",
+    content: ".",
   },
   {
-    img: "./images/exp2.svg",
+    img: <MdLaptop />,
     ttle: "E -Learnig",
     content: "follow the latest trends and innovations in online educations, including virtual classrooms, learning management systems and onlinw course design.",
   },

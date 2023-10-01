@@ -20,8 +20,8 @@ export default function Hero() {
           Publications
         </div>
       </div>
-      <div className="pt-24 text-black isolate w-[850px] ">
-        <p className="text-[min(10vw,70px)] text-balance tracking-wide font-semibold leading-[90px]">
+      <div className="pt-24 text-black isolate w-[100%] md:w-[850px] ">
+        <p className="text-[min(8vw,70px)] tracking-wide font-semibold leading-[55px] laptop:leading-[90px]">
           Discover Thousand of Educational Technology Journals and Books
         </p>
         <p className="mt-8 font-semibold opacity-70 text-[1.5rem] max-w-[550px]">
