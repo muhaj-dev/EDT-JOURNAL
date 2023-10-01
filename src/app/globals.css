@@ -12,3 +12,6 @@
 .btn-pri {
   @apply bg-primary py-3 px-8 border-2 border-primary hover:bg-white ease-in-out transition hover:text-primary text-white
 }
+.pink{
+  background: rgba(255, 102, 99, 0.50);
+}
