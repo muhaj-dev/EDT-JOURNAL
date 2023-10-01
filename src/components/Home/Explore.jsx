@@ -11,7 +11,7 @@ export default function Explore() {
         Explore science, education and technology research
       </h1>
 
-      <div className="z-20 relative bg-white mt-10 grid grid-cols-4 gap-4 ">
+      <div className="z-10 relative bg-white mt-10 grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 laptop_l:grid-cols-4 gap-4 ">
         <div className="ex-card transition-colors duration-200 ease-in-out py-8 px-5 rounded-bl-[1.8rem] rounded-tr-[1.8rem]">
           <Image src="./images/exp1.svg" alt="lang" width={40} height={40} />
 
@@ -65,7 +65,7 @@ export default function Explore() {
         </div>
       </div>
 
-      <div className="z-10 bg-ball h-[28rem] w-[28rem] absolute -right-[9rem] -bottom-[18rem]" />
+      <div className="z-0 bg-ball h-[28rem] w-[28rem] absolute -right-[9rem] -bottom-[18rem]" />
 
     </div>
 
