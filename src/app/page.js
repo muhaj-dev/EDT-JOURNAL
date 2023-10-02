@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className="">
     <Nav />
-    <div className='w-full  max-w-[1300px] mx-auto overflow-hidden'>
+    <div className='w-full  max-w-[1300px] mx-auto'>
       <Hero />
       <Explore />
       <Publish />
