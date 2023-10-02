@@ -47,7 +47,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="bg-ball h-[32rem] w-[32rem] absolute -left-[14rem] top-[3rem]" />
+      <div className="bg-ball h-[32rem] w-[32rem] absolute -left-[20rem] top-[3rem]" />
     </div>
   );
 }

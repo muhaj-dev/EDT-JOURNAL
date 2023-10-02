@@ -1,24 +1,28 @@
 import { MdLaptop } from 'react-icons/md'
 
-export const explore = [
+export const blog = [
   {
-    img: "./images/exp1.svg",
-    ttle: "",
-    content: ".",
+    img: "./images/pub2.svg",
+    title: "science Engineering",
+    duration: ' 3 minutes read',
+    content: "Internet of Tings and why it`s become important in this century.",
   },
   {
-    img: <MdLaptop />,
-    ttle: "E -Learnig",
-    content: "follow the latest trends and innovations in online educations, including virtual classrooms, learning management systems and onlinw course design.",
+    img: "./images/pub2.svg",
+    title: "science Engineering",
+    duration: ' 3 minutes read',
+    content: "Internet of Tings and why it`s become important in this century.",
   },
   {
-    img: "./images/exp3.svg",
-    ttle: "Emerging Technology",
-    content: "stay up-to-date with emerging technologies such as AI, VR, AR, and their potential applications in education.",
+    img: "./images/pub2.svg",
+    title: "science Engineering",
+    duration: ' 3 minutes read',
+    content: "Internet of Tings and why it`s become important in this century.",
   },
   {
-    img: "./images/exp4.svg",
-    ttle: "Blend Learning",
-    content: "the integration of digital technologies wit traditional classroom instruction, focusing on effective strategies for hybrid learning environments.",
+    img: "./images/pub2.svg",
+    title: "science Engineering",
+    duration: ' 3 minutes read',
+    content: "Internet of Tings and why it`s become important in this century.",
   },
 ];

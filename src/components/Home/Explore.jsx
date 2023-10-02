@@ -65,7 +65,7 @@ export default function Explore() {
         </div>
       </div>
 
-      <div className="z-0 bg-ball h-[28rem] w-[28rem] absolute -right-[9rem] -bottom-[18rem]" />
+      <div className="z-0 bg-ball h-[32rem] w-[32rem] absolute -right-[6rem] -bottom-[18rem]" />
 
     </div>
 

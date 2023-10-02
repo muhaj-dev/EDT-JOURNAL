@@ -64,10 +64,10 @@ export const PubThree = () => {
         <p className=" max-w-[310px]">Nano Technology, Yearly Development in different field.</p>
         <MdArrowRightAlt className="text-primary" size={25} />
       </Link>
-      <p className="text-primary ml-auto w-fit font-semibold text-sm flex gap-2 mt-auto items-center">
+      <Link href='#' className="text-primary ml-auto w-fit font-semibold text-sm flex gap-2 mt-auto items-center">
        View more
         <MdArrowRightAlt size={15} />
-      </p>
+      </Link>
     </div>
   );
 };
