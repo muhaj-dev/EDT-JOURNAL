@@ -32,3 +32,15 @@
 .ex-card:hover img {
   color: white;
 }
+
+.pub1 {
+  background-image: url('../../public/images/pub1.svg');
+  background-size: cover;
+  background-position: center;
+}
+
+.pub2 {
+  background-image: url('../../public/images/pub2.png');
+  background-size: 100%;
+  background-position: center;
+}
