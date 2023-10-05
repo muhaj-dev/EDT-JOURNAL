@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Nav() {
   return (
-    <nav className="border-2 border-b-black">
+    <nav className="border-b-2 border-b-black">
       <div className="flex justify-between  items-center w-[95%]  max-w-[1300px] mx-auto">
         <div className="">EDT</div>
         <div className="flex gap-5">
