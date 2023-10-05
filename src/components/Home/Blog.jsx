@@ -5,7 +5,7 @@ import React from "react";
 export default function Blog() {
   return (
     <div className="relative w-full">
-      <div className="my-5  w-[95%]  max-w-[1300px] mx-auto">
+      <div className="my-5  w-full max-w-[1300px] mx-auto">
         <div className="flex justify-between items-center">
           <h1 className="font-bold text-2xl text-left ">
             bL<span className="text-primary">O</span> p

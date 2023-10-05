@@ -5,7 +5,7 @@ import { MdArrowRightAlt } from "react-icons/md";
 
 export default function Publish() {
   return (
-    <div className="my-16  w-[95%] max-w-[1300px] mx-auto">
+    <div className="my-16 max-w-[1300px] mx-auto">
       <h1 className="font-bold text-2xl text-left ">
         Recently Published Paper
       </h1>

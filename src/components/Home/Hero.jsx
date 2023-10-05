@@ -5,7 +5,7 @@ import { MdArrowRightAlt } from "react-icons/md";
 
 export default function Hero() {
   return (
-    <div className="relative w-[95%] lg:-red-400 h-[100dvh] max-h-[700px] max-w-[1300px] mx-auto">
+    <div className="relative h-[100dvh] max-h-[700px] max-w-[1300px] mx-auto">
       <div className="my-14 top-0 absolute right-0">
         <div className="absolute -top-14 -left-20 pink h-[55px] w-[55px]" />
         <Image

@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Explore() {
   return (
     <div className="relative w-full">
-    <div className="my-5  w-[95%]  max-w-[1300px] mx-auto">
+    <div className="my-5 max-w-[1300px] mx-auto">
       <h1 className="font-bold text-2xl text-center">
         Explore science, education and technology research
       </h1>
